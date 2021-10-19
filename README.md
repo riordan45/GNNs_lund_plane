@@ -24,6 +24,8 @@ The testing portion was written mainly for the LXPLUS cluster but you can use th
     - `pytorch_graph_neural_networks.ipynb` Notebook generally used for debugging a gnn model before you include it in the gnn_train.py script to make sure it works on your machine.
     - `pytorch_adversarial_network.ipynb` Notebook that was used for debugging the adversarial network.  
 
+- Models
+    There are a couple of already trained models for trial. One thing about PNANet is that it requires a large amount of VRAM. The work with it was done on a V100 GPU on the LXPLUS cluster which has 32 GB. Even on it previous runs ran out of memory. What is on this repo is the working version.
 
 
     
