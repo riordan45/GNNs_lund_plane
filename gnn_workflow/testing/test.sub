@@ -1,0 +1,12 @@
+executable              = test.sh
+arguments               = $(Process)
+output                  = test.$(ClusterId).$(Process).out
+error                   = test.$(ClusterId).$(Process).err
+log                     = test.$(ClusterId).$(Process).log
+should_transfer_files   = YES
+transfer_input_files    = test.py
++JobFlavour             = "nextweek"
+when_to_transfer_output = ON_EXIT
+request_GPUs = 1
+request_CPUs = 1
+queue 22
