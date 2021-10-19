@@ -1,8 +1,7 @@
 # Graph Neural Networks for tagging jets with the Lund Plane
-Lund Plane DNN studies.
 
 ### Setup
-Use conda and import the environment with the .yml file. 
+By using Conda you can import the environment with the .yml file. 
 
 ### Workflow
 All your datasets need to be in the `.root` format. This is preferred over `.npz` and `.hdf5` due to the irregular shape of the Lund variables arrays. This representation also allows the processing of the data on the fly which is needed due to some `.root` files have emppty components for certain jets.
